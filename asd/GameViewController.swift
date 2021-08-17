@@ -12,7 +12,6 @@ class GameViewController: UIViewController {
     @IBOutlet weak var questionLable: UILabel!
     @IBOutlet weak var scoreLable: UILabel!
     @IBOutlet weak var resultLable: UILabel!
-    //@IBOutlet var choiceButton: [UIButton]!
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var againButton: UIButton!
     @IBOutlet var choiceButton: [UIButton]!

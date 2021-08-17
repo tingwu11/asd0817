@@ -25,6 +25,7 @@
 		189C76C426C8EDFA0008380A /* searchMapTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C76C326C8EDFA0008380A /* searchMapTableViewController.swift */; };
 		189C76D326C904990008380A /* searchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C76D226C904990008380A /* searchTableViewCell.swift */; };
 		189C771826CA277D0008380A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 189C771726CA277D0008380A /* GoogleService-Info.plist */; };
+		189C77FB26CB4F740008380A /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C77FA26CB4F740008380A /* searchViewController.swift */; };
 		18C0FFE826C8B0330015B530 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0FFE726C8B0330015B530 /* GameViewController.swift */; };
 		86E0B0EA14E6636ED498DB7D /* Pods_asdTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11476EA2F46C4AA150105474 /* Pods_asdTests.framework */; };
 		FBA0B7D0189CF6DB321726DA /* Pods_asd_asdUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E676EB6BB8CAD2519BEA0192 /* Pods_asd_asdUITests.framework */; };
@@ -74,6 +75,7 @@
 		189C76C326C8EDFA0008380A /* searchMapTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchMapTableViewController.swift; sourceTree = "<group>"; };
 		189C76D226C904990008380A /* searchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchTableViewCell.swift; sourceTree = "<group>"; };
 		189C771726CA277D0008380A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		189C77FA26CB4F740008380A /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
 		18C0FFE726C8B0330015B530 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		30138F223CEC4FE1DB33F5FE /* Pods-asd-asdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asd-asdUITests.release.xcconfig"; path = "Target Support Files/Pods-asd-asdUITests/Pods-asd-asdUITests.release.xcconfig"; sourceTree = "<group>"; };
 		596857BC3B7A263B3A5B4B53 /* Pods_asd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_asd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +159,11 @@
 				18C0FFE726C8B0330015B530 /* GameViewController.swift */,
 				182F575326C8B563007DA6FE /* ChoiceQues.swift */,
 				189C76AC26C8E9D70008380A /* search */,
+				189C781926CB66E70008380A /* division */,
+				189C781A26CB67010008380A /* hospital */,
+				189C781B26CB67100008380A /* doctor */,
+				189C781C26CB67180008380A /* map */,
+				189C781D26CB671C0008380A /* symptom */,
 				187603A126C7FA3E001D5841 /* Storyboard.storyboard */,
 				189C771726CA277D0008380A /* GoogleService-Info.plist */,
 				1876031126C7EB08001D5841 /* Assets.xcassets */,
@@ -197,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				189C76D226C904990008380A /* searchTableViewCell.swift */,
+				189C77FA26CB4F740008380A /* searchViewController.swift */,
 				189C76B426C8EA480008380A /* searchDivisionTableViewController.swift */,
 				189C76B226C8EA160008380A /* searchHospitalTableViewController.swift */,
 				189C76AD26C8E9F80008380A /* searchDoctorTableViewController.swift */,
@@ -204,6 +212,41 @@
 				189C76BE26C8EDB60008380A /* searchSymptomTableViewController.swift */,
 			);
 			path = search;
+			sourceTree = "<group>";
+		};
+		189C781926CB66E70008380A /* division */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = division;
+			sourceTree = "<group>";
+		};
+		189C781A26CB67010008380A /* hospital */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = hospital;
+			sourceTree = "<group>";
+		};
+		189C781B26CB67100008380A /* doctor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = doctor;
+			sourceTree = "<group>";
+		};
+		189C781C26CB67180008380A /* map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		189C781D26CB671C0008380A /* symptom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = symptom;
 			sourceTree = "<group>";
 		};
 		CD860C00CE0CFF9BA268B47C /* Pods */ = {
@@ -476,6 +519,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189C77FB26CB4F740008380A /* searchViewController.swift in Sources */,
 				189C76C426C8EDFA0008380A /* searchMapTableViewController.swift in Sources */,
 				189C76AE26C8E9F80008380A /* searchDoctorTableViewController.swift in Sources */,
 				182F575426C8B563007DA6FE /* ChoiceQues.swift in Sources */,

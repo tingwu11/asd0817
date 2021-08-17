@@ -9,7 +9,7 @@ import UIKit
 
 class searchHospitalTableViewController: UITableViewController, UISearchResultsUpdating {
     
-    var array = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q"]
+    var array = ["童綜合醫院", "光田醫院", "何秋燕皮膚科", "夏在中診所", "潔新眼科", "蕭英宗耳鼻喉科", "長明眼科", "晨安診所", "仁人堂中醫診所", "一品堂中醫診所", "楊耳鼻喉科"]
     
     var result: [String] = []
     
@@ -20,8 +20,8 @@ class searchHospitalTableViewController: UITableViewController, UISearchResultsU
         tableView.tableHeaderView = mySearchController?.searchBar
         mySearchController?.searchResultsUpdater = self
         mySearchController?.searchBar.placeholder = "Search Words"
-        mySearchController?.searchBar.barTintColor = .blue
-        mySearchController?.searchBar.tintColor = .red
+        mySearchController?.searchBar.barTintColor = .gray
+        mySearchController?.searchBar.tintColor = .blue
         mySearchController?.searchBar.searchBarStyle = .prominent
     }
     
@@ -69,5 +69,18 @@ class searchHospitalTableViewController: UITableViewController, UISearchResultsU
             
             return isMach
         })
+    }
+}
+
+extension searchHospitalTableViewController {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+        for i in 1...11 {
+            if array[indexPath.row] == array[i-1]{
+                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "hospital\(i)")
+                    self.present(vc!, animated: true, completion: nil)
+
+            }
+        }
     }
 }
