@@ -11,6 +11,9 @@ target 'asd' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Database'
   pod 'Firebase/Core'
+  pod 'Alamofire','~>4.4'
+  pod 'AlamofireImage','~>3.2'
+  pod 'Kanna','~>5.0.0'
 
   target 'asdTests' do
     inherit! :search_paths
@@ -20,7 +23,9 @@ target 'asd' do
     pod 'Firebase/Firestore'
     pod 'Firebase/Database'
     pod 'Firebase/Core'
-
+    pod 'Alamofire','~>4.4'
+    pod 'AlamofireImage','~>3.2'
+    pod 'Kanna','~>5.0.0'
   end
 
   target 'asdUITests' do
@@ -30,7 +35,9 @@ target 'asd' do
     pod 'Firebase/Firestore'
     pod 'Firebase/Database'
     pod 'Firebase/Core'
-
+    pod 'Alamofire','~>4.4'
+    pod 'AlamofireImage','~>3.2'
+    pod 'Kanna','~>5.0.0'
   end
 
 end

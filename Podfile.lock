@@ -212,6 +212,9 @@ PODS:
     - abseil/base/base_internal
     - abseil/base/config
     - abseil/meta/type_traits
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
   - BoringSSL-GRPC (0.0.7):
     - BoringSSL-GRPC/Implementation (= 0.0.7)
     - BoringSSL-GRPC/Interface (= 0.0.7)
@@ -329,6 +332,7 @@ PODS:
     - gRPC-Core/Interface (= 1.28.2)
   - gRPC-Core/Interface (1.28.2)
   - GTMSessionFetcher/Core (1.5.0)
+  - Kanna (5.0.0)
   - leveldb-library (1.22)
   - nanopb (2.30907.0):
     - nanopb/decode (= 2.30907.0)
@@ -338,15 +342,20 @@ PODS:
   - PromisesObjC (1.2.12)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireImage (~> 3.2)
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
   - Firebase/Firestore
+  - Kanna (~> 5.0.0)
 
 SPEC REPOS:
   trunk:
     - abseil
+    - Alamofire
+    - AlamofireImage
     - BoringSSL-GRPC
     - Firebase
     - FirebaseAnalytics
@@ -362,12 +371,15 @@ SPEC REPOS:
     - "gRPC-C++"
     - gRPC-Core
     - GTMSessionFetcher
+    - Kanna
     - leveldb-library
     - nanopb
     - PromisesObjC
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
   Firebase: cd2ab85eec8170dc260186159f21072ecb679ad5
   FirebaseAnalytics: f3f8f75de34fe04141a69bb1c4bd7e24a80178e1
@@ -383,10 +395,11 @@ SPEC CHECKSUMS:
   "gRPC-C++": 13d8ccef97d5c3c441b7e3c529ef28ebee86fad2
   gRPC-Core: 4afa11bfbedf7cdecd04de535a9e046893404ed5
   GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  Kanna: a32875df62975f8f4b871e933b4ea1a5c3b8be0f
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 59221d7f958fb711001e6a449489542d92ae113e
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
 
-PODFILE CHECKSUM: 2deeca578bcf306415052a23109d526cce73cade
+PODFILE CHECKSUM: 6348fbb3665ba95b87293d8d414d534ecc0fc6c9
 
 COCOAPODS: 1.10.1
