@@ -28,16 +28,49 @@
 		189C77FB26CB4F740008380A /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C77FA26CB4F740008380A /* searchViewController.swift */; };
 		18C0FFE826C8B0330015B530 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0FFE726C8B0330015B530 /* GameViewController.swift */; };
 		18C37D0126CBFE4600593DE8 /* commentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D0026CBFE4600593DE8 /* commentViewController.swift */; };
-		18C37D0626CC090D00593DE8 /* division1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D0526CC090D00593DE8 /* division1TableViewController.swift */; };
-		18C37D0B26CC099B00593DE8 /* division2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D0A26CC099B00593DE8 /* division2TableViewController.swift */; };
-		18C37D1026CC0A8B00593DE8 /* division3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D0F26CC0A8B00593DE8 /* division3TableViewController.swift */; };
-		18C37D1526CC0B8F00593DE8 /* division4TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D1426CC0B8F00593DE8 /* division4TableViewController.swift */; };
-		18C37D1726CC0C2500593DE8 /* division5TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D1626CC0C2500593DE8 /* division5TableViewController.swift */; };
-		18C37D1C26CC0C7B00593DE8 /* division6TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D1B26CC0C7B00593DE8 /* division6TableViewController.swift */; };
-		18C37D2126CC0D1F00593DE8 /* division7TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D2026CC0D1F00593DE8 /* division7TableViewController.swift */; };
-		18C37D2626CC0D7800593DE8 /* division8TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D2526CC0D7800593DE8 /* division8TableViewController.swift */; };
-		18C37D2B26CC0D9600593DE8 /* division9TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D2A26CC0D9600593DE8 /* division9TableViewController.swift */; };
-		18C37D3026CC0DCD00593DE8 /* division10TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D2F26CC0DCD00593DE8 /* division10TableViewController.swift */; };
+		18C37D5E26CCACFB00593DE8 /* symotom1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D5D26CCACFB00593DE8 /* symotom1TableViewController.swift */; };
+		18C37D6326CCAEA600593DE8 /* symotom2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D6226CCAEA600593DE8 /* symotom2TableViewController.swift */; };
+		18C37D6826CCAEC600593DE8 /* symotom3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D6726CCAEC600593DE8 /* symotom3TableViewController.swift */; };
+		18C37D6A26CCAEE800593DE8 /* symotom4TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D6926CCAEE800593DE8 /* symotom4TableViewController.swift */; };
+		18C37D6C26CCAF1100593DE8 /* symotom5TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D6B26CCAF1100593DE8 /* symotom5TableViewController.swift */; };
+		18C37D6E26CCAF5200593DE8 /* symotom6TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D6D26CCAF5200593DE8 /* symotom6TableViewController.swift */; };
+		18C37D7026CCAF7A00593DE8 /* symotom7TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D6F26CCAF7A00593DE8 /* symotom7TableViewController.swift */; };
+		18C37D7226CCAF9F00593DE8 /* symotom8TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D7126CCAF9F00593DE8 /* symotom8TableViewController.swift */; };
+		18C37D7426CCAFBD00593DE8 /* symotom9TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D7326CCAFBD00593DE8 /* symotom9TableViewController.swift */; };
+		18C37D7926CCB00D00593DE8 /* symotom10TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D7826CCB00D00593DE8 /* symotom10TableViewController.swift */; };
+		18C37D7E26CCB06000593DE8 /* symotom11TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D7D26CCB06000593DE8 /* symotom11TableViewController.swift */; };
+		18C37D8326CCB11E00593DE8 /* symotom13TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D8226CCB11E00593DE8 /* symotom13TableViewController.swift */; };
+		18C37D8826CCB1A400593DE8 /* symptom12TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D8726CCB1A400593DE8 /* symptom12TableViewController.swift */; };
+		18C37D8A26CCB1C200593DE8 /* symptom14TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D8926CCB1C200593DE8 /* symptom14TableViewController.swift */; };
+		18C37D8C26CCB1D500593DE8 /* symptom15TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D8B26CCB1D500593DE8 /* symptom15TableViewController.swift */; };
+		18C37D8E26CCB1E600593DE8 /* symptom16TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D8D26CCB1E600593DE8 /* symptom16TableViewController.swift */; };
+		18C37D9026CCB1F100593DE8 /* symptom17TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D8F26CCB1F100593DE8 /* symptom17TableViewController.swift */; };
+		18C37D9226CCB20100593DE8 /* symptom18TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D9126CCB20100593DE8 /* symptom18TableViewController.swift */; };
+		18C37D9726CCB23A00593DE8 /* symptom19TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D9626CCB23A00593DE8 /* symptom19TableViewController.swift */; };
+		18C37D9C26CCB26600593DE8 /* symptom20TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37D9B26CCB26500593DE8 /* symptom20TableViewController.swift */; };
+		18C37DA126CCB30000593DE8 /* symptom21TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DA026CCB30000593DE8 /* symptom21TableViewController.swift */; };
+		18C37DA626CCB30E00593DE8 /* symptom22TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DA526CCB30E00593DE8 /* symptom22TableViewController.swift */; };
+		18C37DA826CCB31800593DE8 /* symptom23TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DA726CCB31800593DE8 /* symptom23TableViewController.swift */; };
+		18C37DAA26CCB32300593DE8 /* symptom24TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DA926CCB32300593DE8 /* symptom24TableViewController.swift */; };
+		18C37DAC26CCB33100593DE8 /* symptom25TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DAB26CCB33100593DE8 /* symptom25TableViewController.swift */; };
+		18C37DAE26CCB33C00593DE8 /* symptom26TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DAD26CCB33C00593DE8 /* symptom26TableViewController.swift */; };
+		18C37DB026CCB34500593DE8 /* symptom27TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DAF26CCB34500593DE8 /* symptom27TableViewController.swift */; };
+		18C37DB226CCB34E00593DE8 /* symptom28TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DB126CCB34E00593DE8 /* symptom28TableViewController.swift */; };
+		18C37DB426CCB35800593DE8 /* symptom29TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DB326CCB35800593DE8 /* symptom29TableViewController.swift */; };
+		18C37DB626CCB36700593DE8 /* symptom30TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DB526CCB36700593DE8 /* symptom30TableViewController.swift */; };
+		18C37DB826CCB37900593DE8 /* symptom31TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DB726CCB37900593DE8 /* symptom31TableViewController.swift */; };
+		18C37DBA26CCB38300593DE8 /* symptom32TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DB926CCB38300593DE8 /* symptom32TableViewController.swift */; };
+		18C37DBF26CCB3A000593DE8 /* symptom33TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DBE26CCB3A000593DE8 /* symptom33TableViewController.swift */; };
+		18C37DC426CCB3B600593DE8 /* symptom34TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DC326CCB3B600593DE8 /* symptom34TableViewController.swift */; };
+		18C37DC926CCB3C200593DE8 /* symptom35TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DC826CCB3C200593DE8 /* symptom35TableViewController.swift */; };
+		18C37DCE26CCB3D000593DE8 /* symptom36TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DCD26CCB3D000593DE8 /* symptom36TableViewController.swift */; };
+		18C37DD326CCB3DD00593DE8 /* symptom37TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DD226CCB3DD00593DE8 /* symptom37TableViewController.swift */; };
+		18C37DD526CCB3E600593DE8 /* symptom38TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DD426CCB3E600593DE8 /* symptom38TableViewController.swift */; };
+		18C37DDA26CCB3F600593DE8 /* symptom39TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DD926CCB3F600593DE8 /* symptom39TableViewController.swift */; };
+		18C37DDF26CCB44300593DE8 /* symptom40TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DDE26CCB44300593DE8 /* symptom40TableViewController.swift */; };
+		18C37DE426CCB46E00593DE8 /* symptom41TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DE326CCB46E00593DE8 /* symptom41TableViewController.swift */; };
+		18C37DE926CCB4CF00593DE8 /* symptom42TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DE826CCB4CF00593DE8 /* symptom42TableViewController.swift */; };
+		18C37DEE26CCB4ED00593DE8 /* symptom43TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DED26CCB4ED00593DE8 /* symptom43TableViewController.swift */; };
 		86E0B0EA14E6636ED498DB7D /* Pods_asdTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11476EA2F46C4AA150105474 /* Pods_asdTests.framework */; };
 		FBA0B7D0189CF6DB321726DA /* Pods_asd_asdUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E676EB6BB8CAD2519BEA0192 /* Pods_asd_asdUITests.framework */; };
 		FE9E0752F9E0C901E05A699F /* Pods_asd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596857BC3B7A263B3A5B4B53 /* Pods_asd.framework */; };
@@ -89,16 +122,49 @@
 		189C77FA26CB4F740008380A /* searchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
 		18C0FFE726C8B0330015B530 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		18C37D0026CBFE4600593DE8 /* commentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentViewController.swift; sourceTree = "<group>"; };
-		18C37D0526CC090D00593DE8 /* division1TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division1TableViewController.swift; sourceTree = "<group>"; };
-		18C37D0A26CC099B00593DE8 /* division2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division2TableViewController.swift; sourceTree = "<group>"; };
-		18C37D0F26CC0A8B00593DE8 /* division3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division3TableViewController.swift; sourceTree = "<group>"; };
-		18C37D1426CC0B8F00593DE8 /* division4TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division4TableViewController.swift; sourceTree = "<group>"; };
-		18C37D1626CC0C2500593DE8 /* division5TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division5TableViewController.swift; sourceTree = "<group>"; };
-		18C37D1B26CC0C7B00593DE8 /* division6TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division6TableViewController.swift; sourceTree = "<group>"; };
-		18C37D2026CC0D1F00593DE8 /* division7TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division7TableViewController.swift; sourceTree = "<group>"; };
-		18C37D2526CC0D7800593DE8 /* division8TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division8TableViewController.swift; sourceTree = "<group>"; };
-		18C37D2A26CC0D9600593DE8 /* division9TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division9TableViewController.swift; sourceTree = "<group>"; };
-		18C37D2F26CC0DCD00593DE8 /* division10TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = division10TableViewController.swift; sourceTree = "<group>"; };
+		18C37D5D26CCACFB00593DE8 /* symotom1TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symotom1TableViewController.swift; sourceTree = "<group>"; };
+		18C37D6226CCAEA600593DE8 /* symotom2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symotom2TableViewController.swift; sourceTree = "<group>"; };
+		18C37D6726CCAEC600593DE8 /* symotom3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symotom3TableViewController.swift; sourceTree = "<group>"; };
+		18C37D6926CCAEE800593DE8 /* symotom4TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symotom4TableViewController.swift; sourceTree = "<group>"; };
+		18C37D6B26CCAF1100593DE8 /* symotom5TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symotom5TableViewController.swift; sourceTree = "<group>"; };
+		18C37D6D26CCAF5200593DE8 /* symotom6TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symotom6TableViewController.swift; sourceTree = "<group>"; };
+		18C37D6F26CCAF7A00593DE8 /* symotom7TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symotom7TableViewController.swift; sourceTree = "<group>"; };
+		18C37D7126CCAF9F00593DE8 /* symotom8TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symotom8TableViewController.swift; sourceTree = "<group>"; };
+		18C37D7326CCAFBD00593DE8 /* symotom9TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symotom9TableViewController.swift; sourceTree = "<group>"; };
+		18C37D7826CCB00D00593DE8 /* symotom10TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symotom10TableViewController.swift; sourceTree = "<group>"; };
+		18C37D7D26CCB06000593DE8 /* symotom11TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symotom11TableViewController.swift; sourceTree = "<group>"; };
+		18C37D8226CCB11E00593DE8 /* symotom13TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symotom13TableViewController.swift; sourceTree = "<group>"; };
+		18C37D8726CCB1A400593DE8 /* symptom12TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom12TableViewController.swift; sourceTree = "<group>"; };
+		18C37D8926CCB1C200593DE8 /* symptom14TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom14TableViewController.swift; sourceTree = "<group>"; };
+		18C37D8B26CCB1D500593DE8 /* symptom15TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom15TableViewController.swift; sourceTree = "<group>"; };
+		18C37D8D26CCB1E600593DE8 /* symptom16TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom16TableViewController.swift; sourceTree = "<group>"; };
+		18C37D8F26CCB1F100593DE8 /* symptom17TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom17TableViewController.swift; sourceTree = "<group>"; };
+		18C37D9126CCB20100593DE8 /* symptom18TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom18TableViewController.swift; sourceTree = "<group>"; };
+		18C37D9626CCB23A00593DE8 /* symptom19TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom19TableViewController.swift; sourceTree = "<group>"; };
+		18C37D9B26CCB26500593DE8 /* symptom20TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom20TableViewController.swift; sourceTree = "<group>"; };
+		18C37DA026CCB30000593DE8 /* symptom21TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom21TableViewController.swift; sourceTree = "<group>"; };
+		18C37DA526CCB30E00593DE8 /* symptom22TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom22TableViewController.swift; sourceTree = "<group>"; };
+		18C37DA726CCB31800593DE8 /* symptom23TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom23TableViewController.swift; sourceTree = "<group>"; };
+		18C37DA926CCB32300593DE8 /* symptom24TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom24TableViewController.swift; sourceTree = "<group>"; };
+		18C37DAB26CCB33100593DE8 /* symptom25TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom25TableViewController.swift; sourceTree = "<group>"; };
+		18C37DAD26CCB33C00593DE8 /* symptom26TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom26TableViewController.swift; sourceTree = "<group>"; };
+		18C37DAF26CCB34500593DE8 /* symptom27TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom27TableViewController.swift; sourceTree = "<group>"; };
+		18C37DB126CCB34E00593DE8 /* symptom28TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom28TableViewController.swift; sourceTree = "<group>"; };
+		18C37DB326CCB35800593DE8 /* symptom29TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom29TableViewController.swift; sourceTree = "<group>"; };
+		18C37DB526CCB36700593DE8 /* symptom30TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom30TableViewController.swift; sourceTree = "<group>"; };
+		18C37DB726CCB37900593DE8 /* symptom31TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom31TableViewController.swift; sourceTree = "<group>"; };
+		18C37DB926CCB38300593DE8 /* symptom32TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom32TableViewController.swift; sourceTree = "<group>"; };
+		18C37DBE26CCB3A000593DE8 /* symptom33TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom33TableViewController.swift; sourceTree = "<group>"; };
+		18C37DC326CCB3B600593DE8 /* symptom34TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom34TableViewController.swift; sourceTree = "<group>"; };
+		18C37DC826CCB3C200593DE8 /* symptom35TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom35TableViewController.swift; sourceTree = "<group>"; };
+		18C37DCD26CCB3D000593DE8 /* symptom36TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom36TableViewController.swift; sourceTree = "<group>"; };
+		18C37DD226CCB3DD00593DE8 /* symptom37TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom37TableViewController.swift; sourceTree = "<group>"; };
+		18C37DD426CCB3E600593DE8 /* symptom38TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom38TableViewController.swift; sourceTree = "<group>"; };
+		18C37DD926CCB3F600593DE8 /* symptom39TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom39TableViewController.swift; sourceTree = "<group>"; };
+		18C37DDE26CCB44300593DE8 /* symptom40TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom40TableViewController.swift; sourceTree = "<group>"; };
+		18C37DE326CCB46E00593DE8 /* symptom41TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom41TableViewController.swift; sourceTree = "<group>"; };
+		18C37DE826CCB4CF00593DE8 /* symptom42TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom42TableViewController.swift; sourceTree = "<group>"; };
+		18C37DED26CCB4ED00593DE8 /* symptom43TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom43TableViewController.swift; sourceTree = "<group>"; };
 		30138F223CEC4FE1DB33F5FE /* Pods-asd-asdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asd-asdUITests.release.xcconfig"; path = "Target Support Files/Pods-asd-asdUITests/Pods-asd-asdUITests.release.xcconfig"; sourceTree = "<group>"; };
 		596857BC3B7A263B3A5B4B53 /* Pods_asd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_asd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF190CFDC1F6695217B2D17 /* Pods-asd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asd.release.xcconfig"; path = "Target Support Files/Pods-asd/Pods-asd.release.xcconfig"; sourceTree = "<group>"; };
@@ -240,16 +306,6 @@
 		189C781926CB66E70008380A /* division */ = {
 			isa = PBXGroup;
 			children = (
-				18C37D0526CC090D00593DE8 /* division1TableViewController.swift */,
-				18C37D0A26CC099B00593DE8 /* division2TableViewController.swift */,
-				18C37D0F26CC0A8B00593DE8 /* division3TableViewController.swift */,
-				18C37D1426CC0B8F00593DE8 /* division4TableViewController.swift */,
-				18C37D1626CC0C2500593DE8 /* division5TableViewController.swift */,
-				18C37D1B26CC0C7B00593DE8 /* division6TableViewController.swift */,
-				18C37D2026CC0D1F00593DE8 /* division7TableViewController.swift */,
-				18C37D2526CC0D7800593DE8 /* division8TableViewController.swift */,
-				18C37D2A26CC0D9600593DE8 /* division9TableViewController.swift */,
-				18C37D2F26CC0DCD00593DE8 /* division10TableViewController.swift */,
 			);
 			path = division;
 			sourceTree = "<group>";
@@ -278,6 +334,49 @@
 		189C781D26CB671C0008380A /* symptom */ = {
 			isa = PBXGroup;
 			children = (
+				18C37D5D26CCACFB00593DE8 /* symotom1TableViewController.swift */,
+				18C37D6226CCAEA600593DE8 /* symotom2TableViewController.swift */,
+				18C37D6726CCAEC600593DE8 /* symotom3TableViewController.swift */,
+				18C37D6926CCAEE800593DE8 /* symotom4TableViewController.swift */,
+				18C37D6B26CCAF1100593DE8 /* symotom5TableViewController.swift */,
+				18C37D6D26CCAF5200593DE8 /* symotom6TableViewController.swift */,
+				18C37D6F26CCAF7A00593DE8 /* symotom7TableViewController.swift */,
+				18C37D7126CCAF9F00593DE8 /* symotom8TableViewController.swift */,
+				18C37D7326CCAFBD00593DE8 /* symotom9TableViewController.swift */,
+				18C37D7826CCB00D00593DE8 /* symotom10TableViewController.swift */,
+				18C37D7D26CCB06000593DE8 /* symotom11TableViewController.swift */,
+				18C37D8726CCB1A400593DE8 /* symptom12TableViewController.swift */,
+				18C37D8226CCB11E00593DE8 /* symotom13TableViewController.swift */,
+				18C37D8926CCB1C200593DE8 /* symptom14TableViewController.swift */,
+				18C37D8B26CCB1D500593DE8 /* symptom15TableViewController.swift */,
+				18C37D8D26CCB1E600593DE8 /* symptom16TableViewController.swift */,
+				18C37D8F26CCB1F100593DE8 /* symptom17TableViewController.swift */,
+				18C37D9126CCB20100593DE8 /* symptom18TableViewController.swift */,
+				18C37D9626CCB23A00593DE8 /* symptom19TableViewController.swift */,
+				18C37D9B26CCB26500593DE8 /* symptom20TableViewController.swift */,
+				18C37DA026CCB30000593DE8 /* symptom21TableViewController.swift */,
+				18C37DA526CCB30E00593DE8 /* symptom22TableViewController.swift */,
+				18C37DA726CCB31800593DE8 /* symptom23TableViewController.swift */,
+				18C37DA926CCB32300593DE8 /* symptom24TableViewController.swift */,
+				18C37DAB26CCB33100593DE8 /* symptom25TableViewController.swift */,
+				18C37DAD26CCB33C00593DE8 /* symptom26TableViewController.swift */,
+				18C37DAF26CCB34500593DE8 /* symptom27TableViewController.swift */,
+				18C37DB126CCB34E00593DE8 /* symptom28TableViewController.swift */,
+				18C37DB326CCB35800593DE8 /* symptom29TableViewController.swift */,
+				18C37DB526CCB36700593DE8 /* symptom30TableViewController.swift */,
+				18C37DB726CCB37900593DE8 /* symptom31TableViewController.swift */,
+				18C37DB926CCB38300593DE8 /* symptom32TableViewController.swift */,
+				18C37DBE26CCB3A000593DE8 /* symptom33TableViewController.swift */,
+				18C37DC326CCB3B600593DE8 /* symptom34TableViewController.swift */,
+				18C37DC826CCB3C200593DE8 /* symptom35TableViewController.swift */,
+				18C37DCD26CCB3D000593DE8 /* symptom36TableViewController.swift */,
+				18C37DD226CCB3DD00593DE8 /* symptom37TableViewController.swift */,
+				18C37DD426CCB3E600593DE8 /* symptom38TableViewController.swift */,
+				18C37DD926CCB3F600593DE8 /* symptom39TableViewController.swift */,
+				18C37DDE26CCB44300593DE8 /* symptom40TableViewController.swift */,
+				18C37DE326CCB46E00593DE8 /* symptom41TableViewController.swift */,
+				18C37DE826CCB4CF00593DE8 /* symptom42TableViewController.swift */,
+				18C37DED26CCB4ED00593DE8 /* symptom43TableViewController.swift */,
 			);
 			path = symptom;
 			sourceTree = "<group>";
@@ -560,30 +659,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C37D2126CC0D1F00593DE8 /* division7TableViewController.swift in Sources */,
+				18C37D6C26CCAF1100593DE8 /* symotom5TableViewController.swift in Sources */,
 				189C77FB26CB4F740008380A /* searchViewController.swift in Sources */,
+				18C37D6326CCAEA600593DE8 /* symotom2TableViewController.swift in Sources */,
+				18C37D6E26CCAF5200593DE8 /* symotom6TableViewController.swift in Sources */,
+				18C37DB026CCB34500593DE8 /* symptom27TableViewController.swift in Sources */,
+				18C37D8E26CCB1E600593DE8 /* symptom16TableViewController.swift in Sources */,
+				18C37DC426CCB3B600593DE8 /* symptom34TableViewController.swift in Sources */,
+				18C37D7426CCAFBD00593DE8 /* symotom9TableViewController.swift in Sources */,
 				18C37D0126CBFE4600593DE8 /* commentViewController.swift in Sources */,
-				18C37D1026CC0A8B00593DE8 /* division3TableViewController.swift in Sources */,
-				18C37D0626CC090D00593DE8 /* division1TableViewController.swift in Sources */,
+				18C37DAE26CCB33C00593DE8 /* symptom26TableViewController.swift in Sources */,
+				18C37D7E26CCB06000593DE8 /* symotom11TableViewController.swift in Sources */,
+				18C37DD326CCB3DD00593DE8 /* symptom37TableViewController.swift in Sources */,
+				18C37DA126CCB30000593DE8 /* symptom21TableViewController.swift in Sources */,
 				189C76C426C8EDFA0008380A /* searchMapTableViewController.swift in Sources */,
 				189C76AE26C8E9F80008380A /* searchDoctorTableViewController.swift in Sources */,
+				18C37D7226CCAF9F00593DE8 /* symotom8TableViewController.swift in Sources */,
+				18C37DB626CCB36700593DE8 /* symptom30TableViewController.swift in Sources */,
+				18C37DAC26CCB33100593DE8 /* symptom25TableViewController.swift in Sources */,
+				18C37D5E26CCACFB00593DE8 /* symotom1TableViewController.swift in Sources */,
+				18C37DD526CCB3E600593DE8 /* symptom38TableViewController.swift in Sources */,
+				18C37DB426CCB35800593DE8 /* symptom29TableViewController.swift in Sources */,
+				18C37D7026CCAF7A00593DE8 /* symotom7TableViewController.swift in Sources */,
+				18C37D9C26CCB26600593DE8 /* symptom20TableViewController.swift in Sources */,
+				18C37DA626CCB30E00593DE8 /* symptom22TableViewController.swift in Sources */,
 				182F575426C8B563007DA6FE /* ChoiceQues.swift in Sources */,
+				18C37DC926CCB3C200593DE8 /* symptom35TableViewController.swift in Sources */,
 				189C76D326C904990008380A /* searchTableViewCell.swift in Sources */,
-				18C37D1526CC0B8F00593DE8 /* division4TableViewController.swift in Sources */,
-				18C37D2B26CC0D9600593DE8 /* division9TableViewController.swift in Sources */,
+				18C37DB226CCB34E00593DE8 /* symptom28TableViewController.swift in Sources */,
 				18C0FFE826C8B0330015B530 /* GameViewController.swift in Sources */,
-				18C37D1C26CC0C7B00593DE8 /* division6TableViewController.swift in Sources */,
-				18C37D0B26CC099B00593DE8 /* division2TableViewController.swift in Sources */,
+				18C37DDF26CCB44300593DE8 /* symptom40TableViewController.swift in Sources */,
 				189C76B326C8EA160008380A /* searchHospitalTableViewController.swift in Sources */,
+				18C37DA826CCB31800593DE8 /* symptom23TableViewController.swift in Sources */,
+				18C37D9726CCB23A00593DE8 /* symptom19TableViewController.swift in Sources */,
+				18C37D8A26CCB1C200593DE8 /* symptom14TableViewController.swift in Sources */,
+				18C37DEE26CCB4ED00593DE8 /* symptom43TableViewController.swift in Sources */,
+				18C37D8C26CCB1D500593DE8 /* symptom15TableViewController.swift in Sources */,
+				18C37D8826CCB1A400593DE8 /* symptom12TableViewController.swift in Sources */,
+				18C37DBF26CCB3A000593DE8 /* symptom33TableViewController.swift in Sources */,
+				18C37DB826CCB37900593DE8 /* symptom31TableViewController.swift in Sources */,
+				18C37D7926CCB00D00593DE8 /* symotom10TableViewController.swift in Sources */,
 				187603AF26C7FAA4001D5841 /* ResetPasswordViewController.swift in Sources */,
-				18C37D2626CC0D7800593DE8 /* division8TableViewController.swift in Sources */,
 				187603A726C7FA80001D5841 /* LoginViewController.swift in Sources */,
+				18C37D6A26CCAEE800593DE8 /* symotom4TableViewController.swift in Sources */,
 				189C76BF26C8EDB60008380A /* searchSymptomTableViewController.swift in Sources */,
+				18C37D9026CCB1F100593DE8 /* symptom17TableViewController.swift in Sources */,
 				189C76B526C8EA480008380A /* searchDivisionTableViewController.swift in Sources */,
+				18C37D6826CCAEC600593DE8 /* symotom3TableViewController.swift in Sources */,
+				18C37DDA26CCB3F600593DE8 /* symptom39TableViewController.swift in Sources */,
+				18C37D9226CCB20100593DE8 /* symptom18TableViewController.swift in Sources */,
+				18C37DBA26CCB38300593DE8 /* symptom32TableViewController.swift in Sources */,
+				18C37DE926CCB4CF00593DE8 /* symptom42TableViewController.swift in Sources */,
+				18C37DCE26CCB3D000593DE8 /* symptom36TableViewController.swift in Sources */,
+				18C37DE426CCB46E00593DE8 /* symptom41TableViewController.swift in Sources */,
 				189C76A826C8E7DF0008380A /* LogoutViewController.swift in Sources */,
+				18C37DAA26CCB32300593DE8 /* symptom24TableViewController.swift in Sources */,
+				18C37D8326CCB11E00593DE8 /* symotom13TableViewController.swift in Sources */,
 				187603B426C7FAB5001D5841 /* SignupViewController.swift in Sources */,
-				18C37D3026CC0DCD00593DE8 /* division10TableViewController.swift in Sources */,
-				18C37D1726CC0C2500593DE8 /* division5TableViewController.swift in Sources */,
 				1876039A26C7F790001D5841 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
