@@ -60,7 +60,7 @@ class GameViewController: UIViewController {
         scoreLable.text = String(score)
         actionChoiceQueses = choiceQueses
         nextButton.isHidden = true
-        againButton.isHidden = false
+        againButton.isHidden = true
         setQues()
         
         questionLable.lineBreakMode = NSLineBreakMode.byWordWrapping
