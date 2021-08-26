@@ -26,6 +26,8 @@ target 'asd' do
     pod 'Alamofire','~>4.4'
     pod 'AlamofireImage','~>3.2'
     pod 'Kanna','~>5.0.0'
+
+    pod ‘GoogleMaps’
   end
 
   target 'asdUITests' do
@@ -38,6 +40,8 @@ target 'asd' do
     pod 'Alamofire','~>4.4'
     pod 'AlamofireImage','~>3.2'
     pod 'Kanna','~>5.0.0'
+
+    pod ‘GoogleMaps’
   end
 
 end

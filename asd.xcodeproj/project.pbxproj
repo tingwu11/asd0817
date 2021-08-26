@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		182F575426C8B563007DA6FE /* ChoiceQues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182F575326C8B563007DA6FE /* ChoiceQues.swift */; };
+		1866FECD26D7862F0059DF7A /* OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FECC26D7862F0059DF7A /* OpenMapDirections.swift */; };
+		1866FED226D792780059DF7A /* 1OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FED126D792780059DF7A /* 1OpenMapDirections.swift */; };
+		1866FED726D792960059DF7A /* 2OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FED626D792960059DF7A /* 2OpenMapDirections.swift */; };
+		1866FEDC26D792F20059DF7A /* 3OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FEDB26D792F20059DF7A /* 3OpenMapDirections.swift */; };
+		1866FEE126D7930B0059DF7A /* 4OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FEE026D7930B0059DF7A /* 4OpenMapDirections.swift */; };
+		1866FEE626D7931C0059DF7A /* 5OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FEE526D7931C0059DF7A /* 5OpenMapDirections.swift */; };
+		1866FEEB26D793290059DF7A /* 6OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FEEA26D793290059DF7A /* 6OpenMapDirections.swift */; };
+		1866FEF026D793370059DF7A /* 7OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FEEF26D793370059DF7A /* 7OpenMapDirections.swift */; };
+		1866FEF526D7934F0059DF7A /* 8OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FEF426D7934F0059DF7A /* 8OpenMapDirections.swift */; };
+		1866FEFA26D7935D0059DF7A /* 9OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FEF926D7935D0059DF7A /* 9OpenMapDirections.swift */; };
+		1866FEFF26D7936B0059DF7A /* 10OpenMapDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866FEFE26D7936B0059DF7A /* 10OpenMapDirections.swift */; };
 		1876031226C7EB08001D5841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1876031126C7EB08001D5841 /* Assets.xcassets */; };
 		1876031526C7EB09001D5841 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1876031426C7EB09001D5841 /* Preview Assets.xcassets */; };
 		1876032026C7EB0B001D5841 /* asdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876031F26C7EB0B001D5841 /* asdTests.swift */; };
@@ -71,6 +82,7 @@
 		18C37DE426CCB46E00593DE8 /* symptom41TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DE326CCB46E00593DE8 /* symptom41TableViewController.swift */; };
 		18C37DE926CCB4CF00593DE8 /* symptom42TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DE826CCB4CF00593DE8 /* symptom42TableViewController.swift */; };
 		18C37DEE26CCB4ED00593DE8 /* symptom43TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37DED26CCB4ED00593DE8 /* symptom43TableViewController.swift */; };
+		18C37E2026CCF3D400593DE8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C37E1F26CCF3D400593DE8 /* MapViewController.swift */; };
 		86E0B0EA14E6636ED498DB7D /* Pods_asdTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11476EA2F46C4AA150105474 /* Pods_asdTests.framework */; };
 		FBA0B7D0189CF6DB321726DA /* Pods_asd_asdUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E676EB6BB8CAD2519BEA0192 /* Pods_asd_asdUITests.framework */; };
 		FE9E0752F9E0C901E05A699F /* Pods_asd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596857BC3B7A263B3A5B4B53 /* Pods_asd.framework */; };
@@ -96,6 +108,17 @@
 /* Begin PBXFileReference section */
 		11476EA2F46C4AA150105474 /* Pods_asdTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_asdTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		182F575326C8B563007DA6FE /* ChoiceQues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceQues.swift; sourceTree = "<group>"; };
+		1866FECC26D7862F0059DF7A /* OpenMapDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMapDirections.swift; sourceTree = "<group>"; };
+		1866FED126D792780059DF7A /* 1OpenMapDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1OpenMapDirections.swift; sourceTree = "<group>"; };
+		1866FED626D792960059DF7A /* 2OpenMapDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2OpenMapDirections.swift; sourceTree = "<group>"; };
+		1866FEDB26D792F20059DF7A /* 3OpenMapDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3OpenMapDirections.swift; sourceTree = "<group>"; };
+		1866FEE026D7930B0059DF7A /* 4OpenMapDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4OpenMapDirections.swift; sourceTree = "<group>"; };
+		1866FEE526D7931C0059DF7A /* 5OpenMapDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5OpenMapDirections.swift; sourceTree = "<group>"; };
+		1866FEEA26D793290059DF7A /* 6OpenMapDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 6OpenMapDirections.swift; sourceTree = "<group>"; };
+		1866FEEF26D793370059DF7A /* 7OpenMapDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7OpenMapDirections.swift; sourceTree = "<group>"; };
+		1866FEF426D7934F0059DF7A /* 8OpenMapDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8OpenMapDirections.swift; sourceTree = "<group>"; };
+		1866FEF926D7935D0059DF7A /* 9OpenMapDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9OpenMapDirections.swift; sourceTree = "<group>"; };
+		1866FEFE26D7936B0059DF7A /* 10OpenMapDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10OpenMapDirections.swift; sourceTree = "<group>"; };
 		1876030A26C7EAE0001D5841 /* asd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1876031126C7EB08001D5841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1876031426C7EB09001D5841 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -165,6 +188,7 @@
 		18C37DE326CCB46E00593DE8 /* symptom41TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom41TableViewController.swift; sourceTree = "<group>"; };
 		18C37DE826CCB4CF00593DE8 /* symptom42TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom42TableViewController.swift; sourceTree = "<group>"; };
 		18C37DED26CCB4ED00593DE8 /* symptom43TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = symptom43TableViewController.swift; sourceTree = "<group>"; };
+		18C37E1F26CCF3D400593DE8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		30138F223CEC4FE1DB33F5FE /* Pods-asd-asdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asd-asdUITests.release.xcconfig"; path = "Target Support Files/Pods-asd-asdUITests/Pods-asd-asdUITests.release.xcconfig"; sourceTree = "<group>"; };
 		596857BC3B7A263B3A5B4B53 /* Pods_asd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_asd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF190CFDC1F6695217B2D17 /* Pods-asd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-asd.release.xcconfig"; path = "Target Support Files/Pods-asd/Pods-asd.release.xcconfig"; sourceTree = "<group>"; };
@@ -247,7 +271,6 @@
 				18C0FFE726C8B0330015B530 /* GameViewController.swift */,
 				182F575326C8B563007DA6FE /* ChoiceQues.swift */,
 				189C76AC26C8E9D70008380A /* search */,
-				189C781926CB66E70008380A /* division */,
 				189C781A26CB67010008380A /* hospital */,
 				189C781B26CB67100008380A /* doctor */,
 				189C781C26CB67180008380A /* map */,
@@ -303,13 +326,6 @@
 			path = search;
 			sourceTree = "<group>";
 		};
-		189C781926CB66E70008380A /* division */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = division;
-			sourceTree = "<group>";
-		};
 		189C781A26CB67010008380A /* hospital */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +343,18 @@
 		189C781C26CB67180008380A /* map */ = {
 			isa = PBXGroup;
 			children = (
+				18C37E1F26CCF3D400593DE8 /* MapViewController.swift */,
+				1866FECC26D7862F0059DF7A /* OpenMapDirections.swift */,
+				1866FED126D792780059DF7A /* 1OpenMapDirections.swift */,
+				1866FED626D792960059DF7A /* 2OpenMapDirections.swift */,
+				1866FEDB26D792F20059DF7A /* 3OpenMapDirections.swift */,
+				1866FEE026D7930B0059DF7A /* 4OpenMapDirections.swift */,
+				1866FEE526D7931C0059DF7A /* 5OpenMapDirections.swift */,
+				1866FEEA26D793290059DF7A /* 6OpenMapDirections.swift */,
+				1866FEEF26D793370059DF7A /* 7OpenMapDirections.swift */,
+				1866FEF426D7934F0059DF7A /* 8OpenMapDirections.swift */,
+				1866FEF926D7935D0059DF7A /* 9OpenMapDirections.swift */,
+				1866FEFE26D7936B0059DF7A /* 10OpenMapDirections.swift */,
 			);
 			path = map;
 			sourceTree = "<group>";
@@ -433,6 +461,7 @@
 				1876031826C7EB0B001D5841 /* Frameworks */,
 				1876031926C7EB0B001D5841 /* Resources */,
 				0A46C149419C8F16B40493D2 /* [CP] Embed Pods Frameworks */,
+				F6D5755FD687616AD99428F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -453,6 +482,7 @@
 				1876032326C7EB0B001D5841 /* Frameworks */,
 				1876032426C7EB0B001D5841 /* Resources */,
 				9A46F67DEC7D884034AF5DC3 /* [CP] Embed Pods Frameworks */,
+				A2833DCFE02E183781394507 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -586,6 +616,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-asd-asdUITests/Pods-asd-asdUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A2833DCFE02E183781394507 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-asd-asdUITests/Pods-asd-asdUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-asd-asdUITests/Pods-asd-asdUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-asd-asdUITests/Pods-asd-asdUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A64E0632E9D9820006A9E7C5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -652,6 +699,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F6D5755FD687616AD99428F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-asdTests/Pods-asdTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-asdTests/Pods-asdTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-asdTests/Pods-asdTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -668,12 +732,14 @@
 				18C37DC426CCB3B600593DE8 /* symptom34TableViewController.swift in Sources */,
 				18C37D7426CCAFBD00593DE8 /* symotom9TableViewController.swift in Sources */,
 				18C37D0126CBFE4600593DE8 /* commentViewController.swift in Sources */,
+				1866FEFF26D7936B0059DF7A /* 10OpenMapDirections.swift in Sources */,
 				18C37DAE26CCB33C00593DE8 /* symptom26TableViewController.swift in Sources */,
 				18C37D7E26CCB06000593DE8 /* symotom11TableViewController.swift in Sources */,
 				18C37DD326CCB3DD00593DE8 /* symptom37TableViewController.swift in Sources */,
 				18C37DA126CCB30000593DE8 /* symptom21TableViewController.swift in Sources */,
 				189C76C426C8EDFA0008380A /* searchMapTableViewController.swift in Sources */,
 				189C76AE26C8E9F80008380A /* searchDoctorTableViewController.swift in Sources */,
+				1866FEF526D7934F0059DF7A /* 8OpenMapDirections.swift in Sources */,
 				18C37D7226CCAF9F00593DE8 /* symotom8TableViewController.swift in Sources */,
 				18C37DB626CCB36700593DE8 /* symptom30TableViewController.swift in Sources */,
 				18C37DAC26CCB33100593DE8 /* symptom25TableViewController.swift in Sources */,
@@ -689,20 +755,28 @@
 				18C37DB226CCB34E00593DE8 /* symptom28TableViewController.swift in Sources */,
 				18C0FFE826C8B0330015B530 /* GameViewController.swift in Sources */,
 				18C37DDF26CCB44300593DE8 /* symptom40TableViewController.swift in Sources */,
+				1866FEFA26D7935D0059DF7A /* 9OpenMapDirections.swift in Sources */,
 				189C76B326C8EA160008380A /* searchHospitalTableViewController.swift in Sources */,
 				18C37DA826CCB31800593DE8 /* symptom23TableViewController.swift in Sources */,
 				18C37D9726CCB23A00593DE8 /* symptom19TableViewController.swift in Sources */,
 				18C37D8A26CCB1C200593DE8 /* symptom14TableViewController.swift in Sources */,
 				18C37DEE26CCB4ED00593DE8 /* symptom43TableViewController.swift in Sources */,
 				18C37D8C26CCB1D500593DE8 /* symptom15TableViewController.swift in Sources */,
+				1866FEDC26D792F20059DF7A /* 3OpenMapDirections.swift in Sources */,
 				18C37D8826CCB1A400593DE8 /* symptom12TableViewController.swift in Sources */,
+				1866FEE626D7931C0059DF7A /* 5OpenMapDirections.swift in Sources */,
+				1866FED726D792960059DF7A /* 2OpenMapDirections.swift in Sources */,
 				18C37DBF26CCB3A000593DE8 /* symptom33TableViewController.swift in Sources */,
+				18C37E2026CCF3D400593DE8 /* MapViewController.swift in Sources */,
 				18C37DB826CCB37900593DE8 /* symptom31TableViewController.swift in Sources */,
 				18C37D7926CCB00D00593DE8 /* symotom10TableViewController.swift in Sources */,
+				1866FEE126D7930B0059DF7A /* 4OpenMapDirections.swift in Sources */,
 				187603AF26C7FAA4001D5841 /* ResetPasswordViewController.swift in Sources */,
+				1866FECD26D7862F0059DF7A /* OpenMapDirections.swift in Sources */,
 				187603A726C7FA80001D5841 /* LoginViewController.swift in Sources */,
 				18C37D6A26CCAEE800593DE8 /* symotom4TableViewController.swift in Sources */,
 				189C76BF26C8EDB60008380A /* searchSymptomTableViewController.swift in Sources */,
+				1866FEF026D793370059DF7A /* 7OpenMapDirections.swift in Sources */,
 				18C37D9026CCB1F100593DE8 /* symptom17TableViewController.swift in Sources */,
 				189C76B526C8EA480008380A /* searchDivisionTableViewController.swift in Sources */,
 				18C37D6826CCAEC600593DE8 /* symotom3TableViewController.swift in Sources */,
@@ -714,7 +788,9 @@
 				18C37DE426CCB46E00593DE8 /* symptom41TableViewController.swift in Sources */,
 				189C76A826C8E7DF0008380A /* LogoutViewController.swift in Sources */,
 				18C37DAA26CCB32300593DE8 /* symptom24TableViewController.swift in Sources */,
+				1866FEEB26D793290059DF7A /* 6OpenMapDirections.swift in Sources */,
 				18C37D8326CCB11E00593DE8 /* symotom13TableViewController.swift in Sources */,
+				1866FED226D792780059DF7A /* 1OpenMapDirections.swift in Sources */,
 				187603B426C7FAB5001D5841 /* SignupViewController.swift in Sources */,
 				1876039A26C7F790001D5841 /* AppDelegate.swift in Sources */,
 			);

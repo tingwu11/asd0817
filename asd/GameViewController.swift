@@ -12,6 +12,7 @@ class GameViewController: UIViewController {
     @IBOutlet weak var questionLable: UILabel!
     @IBOutlet weak var scoreLable: UILabel!
     @IBOutlet weak var resultLable: UILabel!
+    @IBOutlet weak var highGradeLabel: UILabel!
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var againButton: UIButton!
     @IBOutlet var choiceButton: [UIButton]!
@@ -48,7 +49,7 @@ class GameViewController: UIViewController {
     var index = 0
     var score = 0
     var count = 0
-    
+    var highGrade = 0
     
     
     override func viewDidLoad() {
@@ -59,7 +60,11 @@ class GameViewController: UIViewController {
         scoreLable.text = String(score)
         actionChoiceQueses = choiceQueses
         nextButton.isHidden = true
+        againButton.isHidden = false
         setQues()
+        
+        questionLable.lineBreakMode = NSLineBreakMode.byWordWrapping
+        questionLable.numberOfLines = 0
     }
     
 
@@ -81,11 +86,7 @@ class GameViewController: UIViewController {
         } else {
             sender.setTitleColor(UIColor.red, for: .normal)
             score -= 5
-            choiceButton.forEach { bt in
-                if bt.title(for: .normal) == choiceQues.answer {
-                    bt.setTitleColor(UIColor.green, for: .normal)
-                }
-            }
+            scoreLable.text = String(score)
         }
         if count >= 10 {
             final()
@@ -104,7 +105,7 @@ class GameViewController: UIViewController {
     }
     @IBAction func playAgain(_ sender: Any) {
         resultLable.isHidden = true
-         againButton.setTitle("重新來過", for: .normal)
+         againButton.setTitle("重新", for: .normal)
          count = 0
          score = 0
          scoreLable.text = String(score)
@@ -137,8 +138,22 @@ class GameViewController: UIViewController {
             scoreLable.text = ""
             let resultMsg = "你得了\(score)分"
             resultLable.text = resultMsg
+            saveGrade()
             resultLable.isHidden = false
             againButton.setTitle("再玩一次", for: .normal)
         }
     
+        let defaults = UserDefaults.standard
+        struct Keys{
+            static let historyGrade = "historyGrade"
+        }
+    
+        func saveGrade(){
+            if score>highGrade{
+                defaults.set(score, forKey: Keys.historyGrade)
+                highGrade = defaults.value(forKey: Keys.historyGrade) as? Int ?? 0
+            
+                highGradeLabel.text = "\(highGrade)"
+        }
+    }
 }

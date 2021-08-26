@@ -29,3 +29,17 @@ class symotom1TableViewController: UITableViewController {
         return cell
     }
 }
+
+extension symotom1TableViewController {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+        if array[indexPath.row] == array[0]{
+                let vc = self.storyboard?.instantiateViewController(withIdentifier: "division18")
+                self.present(vc!, animated: true, completion: nil)
+        }
+        if array[indexPath.row] == array[1]{
+                let vc = self.storyboard?.instantiateViewController(withIdentifier: "division23")
+                self.present(vc!, animated: true, completion: nil)
+        }
+    }
+}

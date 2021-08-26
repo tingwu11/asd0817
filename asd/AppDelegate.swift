@@ -5,6 +5,7 @@ import Firebase
 class AppDelegate: NSObject, UIApplicationDelegate {
 
     var window: UIWindow?
+    let apiKey = "AIzaSyBOwyoWIxaNb425OQYeuG04MY-54WaqN80"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
